@@ -1,2 +1,2 @@
-# school-website
-A website I am making for a school project
+# School Website
+This is a website that I am making for a school project.
