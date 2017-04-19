@@ -1,0 +1,74 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  padding-bottom: 200px;
+}
+
+#content {
+  padding-bottom: 50px;
+  top: 250px;
+}
+
+#content a {
+  color: black;
+  font-weight: bold;
+}
+
+#content a:hover {
+  color: rgb(255, 160, 80);
+}
+
+#content > div {
+  background-color: rgb(255, 223, 191);
+  border-radius: 20px 20px 20px 20px;
+  margin: 50px 100px 50px 100px;
+  padding: 20px 25px 20px 25px;
+  position: relative;
+  top: inherit;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+button, input[type=submit], input[type=button] {
+  background-color: rgb(255, 160, 80);
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 5px 5px 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+button:hover:enabled, input[type=submit]:hover:enabled, input[type=button]:hover:enabled {
+  background-color: rgb(235, 140, 60);
+}
+
+button:active, input[type=submit]:active, input[type=button]:active {
+  box-shadow: 0px 0px;
+  transform: translate(5px, 5px);
+}
+
+button:disabled, input:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+
+.bigbutton {
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 5px 20px;
+}
+
+thead th {
+  font-size: 20px;
+}
