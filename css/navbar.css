@@ -1,0 +1,43 @@
+#header {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+#title {
+  background-color: rgb(255, 232, 201);
+  height: 200px;
+}
+
+nav ul {
+  background-color: rgb(255, 128, 0);
+  border: 2px solid rgb(255, 80, 0);
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  display: block;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+nav a:hover {
+  background-color: rgb(255, 160, 80);
+  transition: background-color 0.5s;
+}
+
+#left li {
+  float: left;
+}
+
+#right li {
+  float: right;
+}
