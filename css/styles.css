@@ -1,4 +1,6 @@
 body {
+  background-image: url("/school-website/images/sunflower.jpg");
+  background-attachment: fixed;
   font-family: "Titillium Web", sans-serif;
   padding-bottom: 200px;
 }
@@ -18,8 +20,8 @@ body {
 }
 
 #content > div {
-  background-color: rgb(255, 223, 191);
-  border-radius: 20px 20px 20px 20px;
+  background-color: rgba(117, 183, 255, 0.8);
+  border-radius: 15px 15px 15px 15px;
   margin: 50px 100px 50px 100px;
   padding: 20px 25px 20px 25px;
   position: relative;
@@ -31,7 +33,7 @@ h1, h2 {
 }
 
 button, input[type=submit], input[type=button] {
-  background-color: rgb(255, 160, 80);
+  background-color: rgb(127, 193, 255);
   border: none;
   border-radius: 5px 5px 5px 5px;
   box-shadow: 5px 5px 5px;
@@ -41,7 +43,7 @@ button, input[type=submit], input[type=button] {
 }
 
 button:hover:enabled, input[type=submit]:hover:enabled, input[type=button]:hover:enabled {
-  background-color: rgb(235, 140, 60);
+  background-color: rgb(107, 173, 235);
 }
 
 button:active, input[type=submit]:active, input[type=button]:active {
